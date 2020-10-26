@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="../bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <title>
+   Document
+  </title>
+ </head>
+ <body>
+  <div class="container">
+   <h1 class="text-center">
+    Money tracker
+   </h1>
+   <div class="row mt-5">
+    <h2 class="text-center col-6" id="solde_reel">
+     Solde réel : +231.83€
+    </h2>
+    <h2 class="text-center col-6" id="solde">
+     Solde théorique : 320.36€
+    </h2>
+    <h2 class="text-center col-6" id="budget_reel">
+     Economie réel : 154.55
+    </h2>
+    <h2 class="text-center col-6" id="budget_theorique">
+     Economie théorique : 213.57
+    </h2>
+   </div>
+   <button aria-controls="charges_container" aria-expanded="false" class="btn btn-primary" data-target="#charges_container" data-toggle="collapse" type="button">
+    Button with data-target
+   </button>
+   <div class="collapse" id="charges_container">
+    <div class="container mt-5">
+     <div class="row mx-auto justify-content-center pt-3">
+      <div class="col-6 text-center border" id="charges_payee">
+       <div class="row text-left">
+        <p class="col-10">
+         PRLV SEPA ORANGE CARAIBE
+        </p>
+        <p class="col-2">
+         -19.99€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         CB  E D F            21/10/20
+        </p>
+        <p class="col-2">
+         -66.86€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         ECHEANCE PRET PERSONNEL 191020
+        </p>
+        <p class="col-2">
+         -13.33€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         TOTAL OPTION SYSTEM' EPARGNE
+        </p>
+        <p class="col-2">
+         -4.99€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         PRLV SEPA HANDICAP INTERNATIONA
+        </p>
+        <p class="col-2">
+         -15.00€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         CB  NETFLIX.COM      11/10/20
+        </p>
+        <p class="col-2">
+         -10.99€
+        </p>
+       </div>
+       <div class="row text-left">
+        <p class="col-10">
+         PRLV SEPA AXA
+        </p>
+        <p class="col-2">
+         -82.55€
+        </p>
+       </div>
+       <p>
+        Total charges payées -213.71€
+       </p>
+      </div>
+      <div class="col-6 text-center border" id="charges_restantes">
+       <div class="row text-left">
+        <p class="col-10">
+         PRLV SEPA FITBERGEVIN
+        </p>
+        <p class="col-2">
+         -29.95€
+        </p>
+       </div>
+       <p>
+        Total charges restantes -29.95€
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

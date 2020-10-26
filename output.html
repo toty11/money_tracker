@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Money tracker</h1>
+        <div class="row mt-5">
+            <h2 id="solde_reel" class="text-center col-6">Solde</h2>
+            <h2 id="solde" class="text-center col-6">Solde</h2>
+            <h2 id="budget_reel" class="text-center col-6">Solde</h2>
+            <h2 id="budget_theorique" class="text-center col-6">Solde</h2>
+        </div>
+
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#charges_container" aria-expanded="false" aria-controls="charges_container">
+            Button with data-target
+        </button>
+        <div class="collapse" id="charges_container">
+            <div class="container mt-5">
+                <div class="row mx-auto justify-content-center pt-3">
+                    <div id="charges_payee" class="col-6 text-center border"></div>
+                    <div id="charges_restantes" class="col-6 text-center border"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
